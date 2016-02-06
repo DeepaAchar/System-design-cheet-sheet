@@ -1,6 +1,6 @@
-**System Design**
+#System Design
 
-**Basic Steps**
+##Basic Steps
 
 1) Clarify and agree on the scope of the system
 * Use cases (description of sequences of events that, taken together, lead to a system doing something useful)
