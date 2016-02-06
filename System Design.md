@@ -36,11 +36,15 @@
 	* You scale by adding more power (CPU, RAM) to your existing machine.
 * Horizontal scaling
 	* You scale by adding more machines into your pool of resources. 
-* Caching
-	* In-memory caches like Memcached or Redis are good choices. Please never do file-based caching, it makes cloning and auto-scaling of your servers just a pain. 
 * Load balancing
 	* Public servers of a scalable web service are hidden behind a load balancer.  This load balancer evenly distributes load (requests from your users) onto your group/cluster of  application servers.
 	* Types: Smart client (hard to get it perfect), Hardware load balancers ($$$ but reliable), Software load balancers (hybrid - works for most systems)
+* Caching
+	* Load balancing helps you scale horizontally across an ever-increasing number of servers, but caching will enable you to make vastly better use of the resources you already have, as well as making otherwise unattainable product requirements feasible. 	
+	* In-memory caches like Memcached or Redis are good choices. Please never do file-based caching, it makes cloning and auto-scaling of your servers just a pain. 
+	* eg. Precalculating results (e.g. the number of visits from each referring domain for the previous day), 
+	* eg. Pre-generating expensive indexes (e.g. suggested stories based on a user's click history)
+	* eg. Storing copies of frequently accessed data in a faster backend (e.g. Memcache instead of PostgreSQL.
 * Database replication
 	* Database replication is the frequent electronic copying data from a database in one computer or server to a database in another so that all users share the same level of information. The result is a distributed database in which users can access data relevant to their tasks without interfering with the work of others. The implementation of database replication for the purpose of eliminating data ambiguity or inconsistency among users is known as normalization.
 * Database partitioning
