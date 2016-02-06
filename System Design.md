@@ -1,5 +1,7 @@
 #System Design
 
+> Picking the right architecture = Picking the right battles + Managing trade-offs
+
 ##Basic Steps
 
 1) **Clarify and agree on the scope of the system**
@@ -131,8 +133,6 @@
   * Build Systems (Grunt/Gulp)
   * Deploy Process
   * Continuous Integration (Travis CI, Jenkins)
-
-> Picking the right architecture = Picking the right battles + Managing trade-offs
 
 **Links**
 
