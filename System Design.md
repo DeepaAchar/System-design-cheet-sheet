@@ -19,7 +19,7 @@
    	* eg. Usually a scalable system includes webserver (load balancer), service (service partition), database (master/slave database cluster) and caching systems.
 
 3) **Component Design**
-* Component + specific APIs required for each of them.
+* Component + specific **APIs** required for each of them.
 * **Object oriented design** for functionalities.
 	* Map features to modules: One scenario for one module.
 	* Consider the relationships among modules: 
@@ -81,6 +81,10 @@
 
 ##Web UI System design topics:
 * Security (CORS)
+* Using CDN
+	* A content delivery network (CDN) is a system of distributed servers (network) that deliver webpages and other Web content to a user based on the geographic locations of the user, the origin of the webpage and a content delivery server.
+	* This service is effective in speeding the delivery of content of websites with high traffic and websites that have global reach. The closer the CDN server is to the user geographically, the faster the content will be delivered to the user. 
+	* CDNs also provide protection from large surges in traffic.
 * Offline support/Progressive enhancement?
 * Accessibility
 * Internationalization
