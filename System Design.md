@@ -76,7 +76,7 @@
 
 **Links**
 
-[HOW TO ACE A SYSTEMS DESIGN INTERVIEW](http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
+[How to rock a systems design interview](http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
 
 [System Design Interviewing](http://www.hiredintech.com/system-design/)
 
