@@ -7,59 +7,69 @@
 	* Who is going to use it?
 	* How are they going to use it?
 * Constraints 
-		- Mainly identify traffic and data handling constraints at scale.
-		- Scale of the system such as requests per second, requests types, data written per second, data read per second)
-		- Special system requirements such as multi-threading, read or write oriented.
+	* Mainly identify traffic and data handling constraints at scale.
+	* Scale of the system such as requests per second, requests types, data written per second, data read per second)
+	* Special system requirements such as multi-threading, read or write oriented.
+	
 2) High level architecture design (Abstract design)
-   	Sketch the important components and connections between them, but don't go into some details.
-   	- Application service layer (serves the requests) -- List different services required.
-   	- Data Storage layer
-   	- eg. Usually a scalable system includes webserver (load balancer), service (service partition), database (master/slave database cluster) and caching systems.
+* Sketch the important components and connections between them, but don't go into some details.
+	* Application service layer (serves the requests) -* List different services required.
+   	* Data Storage layer
+   	* eg. Usually a scalable system includes webserver (load balancer), service (service partition), database (master/slave database cluster) and caching systems.
+
 3) Component Design
-	- Component + specific APIs required for each of them.
-	- Object oriented design for functionalities.
-		- Map features to modules: One scenario for one module.
-		- Consider the relationships among modules: 
-			- Certain functions must have unique instance (Singletons)
-			- Core object can be made up of many other objects (composition).
-			- One object is another object (inheritance)
-	- Database schema design.
+	* Component + specific APIs required for each of them.
+	* Object oriented design for functionalities.
+		* Map features to modules: One scenario for one module.
+		*Consider the relationships among modules: 
+			* Certain functions must have unique instance (Singletons)
+			* Core object can be made up of many other objects (composition).
+			* One object is another object (inheritance)
+	* Database schema design.
+
 4) Understanding Bottlenecks
-	- Perhaps your system needs a load balancer and many machines behind it to handle the user requests. - Or maybe the data is so huge that you need to distribute your database on multiple machines. What are some of the downsides that occur from doing that? 
-	- Is the database too slow and does it need some in-memory caching?	
+	* Perhaps your system needs a load balancer and many machines behind it to handle the user requests. * Or maybe the data is so huge that you need to distribute your database on multiple machines. What are some of the downsides that occur from doing that? 
+	* Is the database too slow and does it need some in-memory caching?	
+
 5) Scaling your abstract design
-	- Vertical scaling
-		- You scale by adding more power (CPU, RAM) to your existing machine.
-	- Horizontal scaling
-		- You scale by adding more machines into your pool of resources. 
-	- Caching
-		- In-memory caches like Memcached or Redis are good choices. Please never do file-based caching, it makes cloning and auto-scaling of your servers just a pain. 
-	- Load balancing
-		- Public servers of a scalable web service are hidden behind a load balancer.  This load balancer evenly distributes load (requests from your users) onto your group/cluster of  application servers.
-	- Database replication
-		- Database replication is the frequent electronic copying data from a database in one computer or server to a database in another so that all users share the same level of information. The result is a distributed database in which users can access data relevant to their tasks without interfering with the work of others. The implementation of database replication for the purpose of eliminating data ambiguity or inconsistency among users is known as normalization.
-	- Database partitioning
-		- Partitioning of relational data usually refers to decomposing your tables either row-wise (horizontally) or column-wise (vertically).
+	* Vertical scaling
+		* You scale by adding more power (CPU, RAM) to your existing machine.
+	* Horizontal scaling
+		* You scale by adding more machines into your pool of resources. 
+	* Caching
+		* In-memory caches like Memcached or Redis are good choices. Please never do file-based caching, it makes cloning and auto-scaling of your servers just a pain. 
+	* Load balancing
+		* Public servers of a scalable web service are hidden behind a load balancer.  This load balancer evenly distributes load (requests from your users) onto your group/cluster of  application servers.
+	* Database replication
+		* Database replication is the frequent electronic copying data from a database in one computer or server to a database in another so that all users share the same level of information. The result is a distributed database in which users can access data relevant to their tasks without interfering with the work of others. The implementation of database replication for the purpose of eliminating data ambiguity or inconsistency among users is known as normalization.
+	* Database partitioning
+		* Partitioning of relational data usually refers to decomposing your tables either row-wise (horizontally) or column-wise (vertically).
 
-Key topics for designing a system
+**Key topics for designing a system**
+
 1) Concurrency 
-	- Do you understand threads, deadlock, and starvation? Do you know how to parallelize algorithms? Do you understand consistency and coherence?
+	* Do you understand threads, deadlock, and starvation? Do you know how to parallelize algorithms? Do you understand consistency and coherence?
+
 2) Networking
-	- Do you roughly understand IPC and TCP/IP? Do you know the difference between throughput and latency, and when each is the relevant factor?
+	* Do you roughly understand IPC and TCP/IP? Do you know the difference between throughput and latency, and when each is the relevant factor?
+
 3) Abstraction
-	- You should understand the systems you’re building upon. Do you know roughly how an OS, file system, and database work? Do you know about the various levels of caching in a modern OS?
+	* You should understand the systems you’re building upon. Do you know roughly how an OS, file system, and database work? Do you know about the various levels of caching in a modern OS?
+
 4) Real-World Performance
-	- You should be familiar with the speed of everything your computer can do, including the relative performance of RAM, disk, SSD and your network.
+	* You should be familiar with the speed of everything your computer can do, including the relative performance of RAM, disk, SSD and your network.
+
 5) Estimation
-	- Estimation, especially in the form of a back-of-the-envelope calculation, is important because it helps you narrow down the list of possible solutions to only the ones that are feasible. Then you have only a few prototypes or micro-benchmarks to write.	
+	* Estimation, especially in the form of a back-of-the-envelope calculation, is important because it helps you narrow down the list of possible solutions to only the ones that are feasible. Then you have only a few prototypes or micro-benchmarks to write.	
+
 6) Availability & Reliability
-	-  Are you thinking about how things can fail, especially in a distributed environment? Do know how to design a system to cope with network failures? Do you understand durability?
+	*  Are you thinking about how things can fail, especially in a distributed environment? Do know how to design a system to cope with network failures? Do you understand durability?
 
 
-Web UI System design topics:
-- Security (CORS)
-- Offline support/Progressive enhancement?
-- Accessibility
-- Internationalization
-- Responsive design
-- Browser compatibility
+**Web UI System design topics:**
+* Security (CORS)
+* Offline support/Progressive enhancement?
+* Accessibility
+* Internationalization
+* Responsive design
+* Browser compatibility
