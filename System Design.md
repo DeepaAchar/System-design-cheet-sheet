@@ -75,7 +75,12 @@
 * Browser compatibility
 
 **Links**
+
+[HOW TO ACE A SYSTEMS DESIGN INTERVIEW](http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
+
 [System Design Interviewing](http://www.hiredintech.com/system-design/)
+
+[Scalability for Dummies](http://www.lecloud.net/tagged/scalability)
 
 [Introduction to Architecting Systems for Scale](http://lethain.com/introduction-to-architecting-systems-for-scale/)
 
