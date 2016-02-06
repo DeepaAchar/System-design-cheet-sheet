@@ -100,10 +100,16 @@
 * Offline support/Progressive enhancement
 	* Service Workers
 * Web Workers
+* Server Side rendering
+* Asynchronous loading of assets (Lazy load items)
+* Minimizing netwrok requests (Http2 + bundling/sprites etc)
+* Developer productivity/Tooling
 * Accessibility
 * Internationalization
 * Responsive design
 * Browser compatibility
+
+> Picking the right architecture = Picking the right battles + Managing trade-offs
 
 **Links**
 
