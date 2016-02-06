@@ -85,7 +85,11 @@
 	* A content delivery network (CDN) is a system of distributed servers (network) that deliver webpages and other Web content to a user based on the geographic locations of the user, the origin of the webpage and a content delivery server.
 	* This service is effective in speeding the delivery of content of websites with high traffic and websites that have global reach. The closer the CDN server is to the user geographically, the faster the content will be delivered to the user. 
 	* CDNs also provide protection from large surges in traffic.
-* Offline support/Progressive enhancement?
+* Full Text Search
+	* Using Sphinx/Lucene/Solr - which achieve fast search responses because, instead of searching the text directly, it searches an index instead.
+* Offline support/Progressive enhancement
+	* Service Workers
+* Web Workers
 * Accessibility
 * Internationalization
 * Responsive design
