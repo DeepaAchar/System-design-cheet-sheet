@@ -45,7 +45,7 @@
 * Database partitioning
 	* Partitioning of relational data usually refers to decomposing your tables either row-wise (horizontally) or column-wise (vertically).
 
-**Key topics for designing a system**
+##Key topics for designing a system
 
 1) Concurrency 
 * Do you understand threads, deadlock, and starvation? Do you know how to parallelize algorithms? Do you understand consistency and coherence?
@@ -66,7 +66,7 @@
 *  Are you thinking about how things can fail, especially in a distributed environment? Do know how to design a system to cope with network failures? Do you understand durability?
 
 
-**Web UI System design topics:**
+##Web UI System design topics:
 * Security (CORS)
 * Offline support/Progressive enhancement?
 * Accessibility
