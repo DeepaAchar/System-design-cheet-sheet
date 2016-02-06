@@ -73,3 +73,12 @@
 * Internationalization
 * Responsive design
 * Browser compatibility
+
+**Links**
+[System Design Interviewing](http://www.hiredintech.com/system-design/)
+
+[Introduction to Architecting Systems for Scale](http://lethain.com/introduction-to-architecting-systems-for-scale/)
+
+[Scalable System Design Patterns](http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html)
+
+[Scalable Web Architecture and Distributed Systems](http://www.aosabook.org/en/distsys.html)
