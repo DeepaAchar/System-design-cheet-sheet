@@ -89,7 +89,7 @@
 *  Are you thinking about how things can fail, especially in a distributed environment? Do know how to design a system to cope with network failures? Do you understand durability?
 
 
-##Web UI System design topics:
+##Web App System design considerations:
 * Security (CORS)
 * Using CDN
 	* A content delivery network (CDN) is a system of distributed servers (network) that deliver webpages and other Web content to a user based on the geographic locations of the user, the origin of the webpage and a content delivery server.
@@ -108,6 +108,29 @@
 * Internationalization
 * Responsive design
 * Browser compatibility
+
+## Working Components of Front-end Architecture
+* Code
+  * HTML5/WAI-ARIA
+  * CSS/Sass Code standards and organization
+  * Object-Oriented approach (how do objects break down and get put together)
+  * JS frameworks/organization/performance optimization techniques
+  * Asset Delivery - Front-end Ops
+* Documentation
+  * Onboarding Docs
+  * Styleguide/Pattern Library
+  * Architecture Diagrams (code flow, tool chain)
+* Testing
+  * Performance Testing
+  * Visual Regression
+  * Unit Testing
+  * End-to-End Testing
+* Process
+  * Git Workflow
+  * Dependency Management (npm, Bundler, Bower)
+  * Build Systems (Grunt/Gulp)
+  * Deploy Process
+  * Continuous Integration (Travis CI, Jenkins)
 
 > Picking the right architecture = Picking the right battles + Managing trade-offs
 
