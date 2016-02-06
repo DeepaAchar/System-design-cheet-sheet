@@ -1,12 +1,12 @@
 *System Design*
 
 **Basic Steps**
-1) Clarify and agree on the scope of the system
 
-	* Use cases (description of sequences of events that, taken together, lead to a system doing something useful)
-		* Who is going to use it?
-		* How are they going to use it?
-	- Constraints 
+1) Clarify and agree on the scope of the system
+* Use cases (description of sequences of events that, taken together, lead to a system doing something useful)
+	* Who is going to use it?
+	* How are they going to use it?
+* Constraints 
 		- Mainly identify traffic and data handling constraints at scale.
 		- Scale of the system such as requests per second, requests types, data written per second, data read per second)
 		- Special system requirements such as multi-threading, read or write oriented.
