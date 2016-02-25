@@ -5,7 +5,7 @@
 ##Basic Steps
 
 1) **Clarify and agree on the scope of the system**
-* **Use cases** (description of sequences of events that, taken together, lead to a system doing something useful)
+* **User cases** (description of sequences of events that, taken together, lead to a system doing something useful)
 	* Who is going to use it?
 	* How are they going to use it?
 * **Constraints** 
