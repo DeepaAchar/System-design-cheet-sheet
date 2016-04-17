@@ -1,4 +1,4 @@
-#Cracking the System Design Interview
+#System Design Interview Cheatsheet
 
 > Picking the right architecture = Picking the right battles + Managing trade-offs
 
