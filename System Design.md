@@ -1,4 +1,4 @@
-#System Design
+#Cracking the System Design Interview
 
 > Picking the right architecture = Picking the right battles + Managing trade-offs
 
