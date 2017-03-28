@@ -1,8 +1,8 @@
-#System Design Cheatsheet
+# System Design Cheatsheet
 
 > Picking the right architecture = Picking the right battles + Managing trade-offs
 
-##Basic Steps
+## Basic Steps
 
 1) **Clarify and agree on the scope of the system**
 * **User cases** (description of sequences of events that, taken together, lead to a system doing something useful)
