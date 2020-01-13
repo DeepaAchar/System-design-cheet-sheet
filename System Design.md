@@ -104,7 +104,7 @@
 * Web Workers
 * Server Side rendering
 * Asynchronous loading of assets (Lazy load items)
-* Minimizing netwrok requests (Http2 + bundling/sprites etc)
+* Minimizing network requests (Http2 + bundling/sprites etc)
 * Developer productivity/Tooling
 * Accessibility
 * Internationalization
